@@ -1,10 +1,35 @@
+body{
+    margin: 0;
+}
 img{
-    width: 1%;
-    height: 1%;
+    width: 10%;
+    height: 10%;
 }
 .container{
     margin: 0 166px;
 }
-.header{
-    background-image: url('bg.jpg');
+.head{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(80%);
+    background-repeat: no-repeat;
+}
+.navigation-panel{
+    color: white;
+}
+.header-line{
+        padding-top: 20px;
+        display: flex;
+    align-items: center;
+}
+.main-menu{
+    color: #fff;
+    text-decoration: none;
+}
+.Prod{
+
+}
+.Tg{
+
 }
