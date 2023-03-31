@@ -1,1 +1,12 @@
-
+img{
+    width: 1%;
+    height: 1%;
+}
+.container{
+    margin: 0px 166px;
+}
+.header{
+    background-image: url('bg.jpg');
+    width: 870px;
+    height: 480px;
+}
