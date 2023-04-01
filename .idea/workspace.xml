@@ -67,6 +67,7 @@
       <updated>1680260232505</updated>
       <workItem from="1680260233717" duration="3261000" />
       <workItem from="1680266977597" duration="6688000" />
+      <workItem from="1680336965947" duration="10423000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
@@ -111,6 +112,17 @@
         <option value="Default.Subject" />
         <option value="Space.CommitStatus" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">

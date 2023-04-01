@@ -2,11 +2,13 @@ body{
     margin: 0;
 }
 img{
-    width: 10%;
-    height: 10%;
+    margin-left: 20px;
+    width: 7%;
+    height: 7%;
+    color: crimson;
 }
 .container{
-    margin: 0 166px;
+    margin: 0 50px;
 }
 .head{
     background-image: url(bg.jpg);
@@ -19,17 +21,71 @@ img{
     color: white;
 }
 .header-line{
+        margin: 0 5px;
         padding-top: 20px;
         display: flex;
-    align-items: center;
+        align-items: center;
+        background: black;
 }
-.main-menu{
+.Main-menu{
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 20px;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+.Main-menu:hover{
+    color: crimson;
 }
 .Prod{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
 
+    margin-right: 20px;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+.Prod:hover{
+    color: crimson;
 }
 .Tg{
-
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.Tg:hover{
+    color: crimson;
+}
+.num{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+.num:hover{
+    color: crimson;
+}
+.title, .title2 {
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.title{
+    color: red;
+}
+.title2{
+    color: white;
+}
+.main{
+ text-align: center;
 }
