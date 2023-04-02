@@ -36,6 +36,7 @@ img{
     margin-right: 20px;
     border-right: 1px solid white;
     padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 .Main-menu:hover{
     color: crimson;
@@ -46,7 +47,7 @@ img{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
-
+    font-family: 'Montserrat', sans-serif;
     margin-right: 20px;
     border-right: 1px solid white;
     padding-right: 20px;
@@ -61,6 +62,7 @@ img{
     font-weight: 500;
     font-size: 20px;
     margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 .Tg:hover{
     color: crimson;
@@ -70,6 +72,7 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 .num:hover{
@@ -88,4 +91,15 @@ img{
 }
 .main{
  text-align: center;
+}
+.low-title, .low-subtitle{
+    text-align: right;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+.hello-message{
+    position: relative;
 }
