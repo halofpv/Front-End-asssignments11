@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="/">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -16,24 +17,11 @@
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="c0199c8b-1b0e-45e6-aba5-76a33f7b0b4a" />
-        <option name="url" value="https://github.com/halofpv/Front-End-asssignments11.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,9 +72,8 @@
       <updated>1680260232505</updated>
       <workItem from="1680260233717" duration="3261000" />
       <workItem from="1680266977597" duration="6688000" />
-      <workItem from="1680336965947" duration="18425000" />
-      <workItem from="1680488163492" duration="1568000" />
-      <workItem from="1680577857551" duration="4167000" />
+      <workItem from="1680336965947" duration="18487000" />
+      <workItem from="1680518043916" duration="9206000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
@@ -124,11 +111,11 @@
       <updated>1680352906381</updated>
     </task>
     <task id="LOCAL-00006" summary="/">
-      <created>1680616967091</created>
+      <created>1680447489811</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1680616967097</updated>
+      <updated>1680447489811</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
