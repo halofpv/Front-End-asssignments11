@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>43 avenue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+            color: #dc143c;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        select {
+            height: 40px;
+        }
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            background-color: #dc143c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        input[type="submit"]:hover {
+            background-color: #ff5f5f;
+        }
+        input:required:invalid {
+            border: 1px solid #ff0000;
+        }
+        input:required:valid {
+            border: 1px solid #ccc;
+        }
+        .input-link {
+            display: inline-block;
+            padding: 6px 12px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .input-link:hover,
+        .input-link:focus,
+        .input-link:active {
+            background-color: #f5f5f5;
+            border-color: #adadad;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Book a Pizza</h1>
+<form action="submit_booking.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4" cols="40" required></textarea><br><br>
+
+    <label for="pizza-type">Pizza Type:</label>
+    <select id="pizza-type" name="pizza-type" required>
+        <option value="">-- Select a Pizza Type --</option>
+        <option value="Margherita">Margherita</option>
+        <option value="Pepperoni">Pepperoni</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="Meat Lovers">Meat Lovers</option>
+    </select><br><br>
+
+    <label for="pizza-size">Pizza Size:</label>
+    <input type="radio" id="small" name="pizza-size" value="Small" required>
+    <label for="small">Small</label>
+    <input type="radio" id="medium" name="pizza-size" value="Medium">
+    <label for="medium">Medium</label>
+    <input type="radio" id="large" name="pizza-size" value="Large">
+    <label for="large">Large</label><br><br>
+
+    <label for="pizza-toppings">Pizza Toppings:</label><br>
+    <input type="checkbox" id="mushrooms" name="toppings[]" value="Mushrooms">
+    <label for="mushrooms">Mushrooms</label>
+    <input type="checkbox" id="olives" name="toppings[]" value="Olives">
+    <label for="olives">Olives</label>
+    <input type="checkbox" id="peppers" name="toppings[]" value="Peppers">
+    <label for="peppers">Peppers</label>
+    <input type="checkbox" id="onions" name="toppings[]" value="Onions">
+    <label for="onions">Onions</label><br><br>
+
+    <label for="delivery-time">Delivery Time:</label>
+    <input type="datetime-local" id="delivery-time" name="delivery-time" required><br><br>
+
+    <a href="secondlist.html" class="input-link">Book pizza</a>
+
+</form>
+</body>
+</html>

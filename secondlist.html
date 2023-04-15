@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Site - Order Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+            color: #dc143c;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        th {
+            background-color: #dc143c;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .total {
+            font-weight: bold;
+            font-size: 20px;
+            text-align: right;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Order Summary</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Pizza Type</th>
+        <th>Size</th>
+        <th>Toppings</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><?php echo $_POST["pizza-type"]; ?></td>
+        <td><?php echo $_POST["pizza-size"]; ?></td>
+        <td>
+            <?php
+              $toppings = $_POST["toppings"];
+              if(empty($toppings)){
+                echo "-";
+              } else {
+                echo implode(", ", $toppings);
+              }
+            ?>
+        </td>
+        <td><?php echo $_POST["quantity"]; ?></td>
+        <td><?php echo "$" . $_POST["price"]; ?></td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="4" class="total">Total:</td>
+        <td class="total"><?php echo "$" . $_POST["price"] * $_POST["quantity"]; ?></td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
