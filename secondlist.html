@@ -1,81 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pizza Site - Order Summary</title>
+    <meta charset="UTF-8">
+    <title>43 AVENUE</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
         }
-        h1 {
-            text-align: center;
-            color: #dc143c;
+        img{
+            width: 10%;
+            height: 10%;
+            margin-left: -100px;
+            padding-right: 30px;
         }
-        table {
-            width: 80%;
-            margin: 0 auto;
-            border-collapse: collapse;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 300px;
+            padding-left: 100px;
         }
-        th {
-            background-color: #dc143c;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            font-weight: bold;
-            text-transform: uppercase;
+        .logotext{
+            font-size: 500%;
         }
-        td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: center;
+        .title{
+            color: crimson;
+            padding-right: -70px;
         }
-        .total {
-            font-weight: bold;
-            font-size: 20px;
-            text-align: right;
-            padding: 10px;
+        .title2{
+            color: aliceblue;
+            padding-left: -70px;
+        }
+        .all{
+            background-size: cover;
+            background: black;
+            height: 100%; /* Добавлено */
+            width: 100%; /* Добавлено */
+        }
+        .head{
+            margin-bottom: 100px;
+        }
+        .qwe{
+            padding-top: 222px;
+            color: white;
         }
     </style>
 </head>
-<body>
-<h1>Order Summary</h1>
-<table>
-    <thead>
-    <tr>
-        <th>Pizza Type</th>
-        <th>Size</th>
-        <th>Toppings</th>
-        <th>Quantity</th>
-        <th>Price</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td><?php echo $_POST["pizza-type"]; ?></td>
-        <td><?php echo $_POST["pizza-size"]; ?></td>
-        <td>
-            <?php
-              $toppings = $_POST["toppings"];
-              if(empty($toppings)){
-                echo "-";
-              } else {
-                echo implode(", ", $toppings);
-              }
-            ?>
-        </td>
-        <td><?php echo $_POST["quantity"]; ?></td>
-        <td><?php echo "$" . $_POST["price"]; ?></td>
-    </tr>
-    </tbody>
-    <tfoot>
-    <tr>
-        <td colspan="4" class="total">Total:</td>
-        <td class="total"><?php echo "$" . $_POST["price"] * $_POST["quantity"]; ?></td>
-    </tr>
-    </tfoot>
-</table>
+<body class="all">
+<div class="head">
+    <div class="logo">
+        <img src="circle.png" alt="">
+        <div class="logotext">
+            <span class="title">43</span>
+            <span class="title2">AVENUE</span>
+        </div>
+    </div>
+</div>
+<div class="qwe">
+    <h2>About us</h2>
+    <p>Company was created by three students of Astana IT University in Kazakhstan</p>
+</div>
 </body>
 </html>
