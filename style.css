@@ -381,3 +381,12 @@ nav a:hover {
     justify-content: center;
     margin-top: 60px;
 }
+
+.btn-black:hover{
+    background-color: black;
+    color: white;
+}
+.btn-black {
+    background-color: #a42800;
+    color: white;
+}
