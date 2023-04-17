@@ -12,18 +12,16 @@
             padding: 0;
         }
         img{
-            width: 20%;
-            height: 20%;
-            margin-left: -100px;
-            padding-right: 30px;
-            padding-left: 220px;
+            width: 10%;
+            max-width: 100%;
+            margin-bottom: 1rem;
         }
         .logo{
-            display: inherit;
-            align-items: center;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-            padding-top: 300px;
-            padding-left: 500px;
+            align-items: center;
+            height: 100vh;
         }
         .logotext{
             font-size: 500%;
@@ -51,28 +49,48 @@
         }
         .heed{
             text-align: center;
-            font-size: 200%;
+            font-size: 150%;
             font-weight: 50%;
+        }
+        .textp{
+            padding-right: 30px;
+            padding-left: 30px;
         }
     </style>
 </head>
 <body class="all">
-<div class="head">
-    <div class="logo">
-        <img src="circle.png" alt="">
-        <div class="logotext">
-            <span class="title">43</span>
-            <span class="title2">AVENUE</span>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="head">
+                <div class="logo d-flex align-items-center justify-content-center">
+                    <img src="circle.png" alt="">
+                    <div class="logotext ml-2">
+                        <span class="title">43</span>
+                        <span class="title2">AVENUE</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<div class="qwe">
-    <div class="heed">
-    <h2>43 AVENUE</h2>
-    <p>Company was created by three students of Astana IT University and destined to defence Front-end Assigment 2 per 100%
-    This company shows our programming skills in HTML/CSS. We also used Bootstrap in the main HTML file in head, main cover and contact menu.
-        In this stage of project development we also have created
-    </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="qwe">
+                <div class="heed">
+                    <h2>43 AVENUE</h2>
+                    <div class="textp">
+                        <p>
+                            Company 43 AVENUE is a success story that started with the dream of three students. Company was created by three students of Astana IT University and destined to defence Front-end Assigment 2 per 100%
+                            This company shows our programming skills in HTML/CSS. We also used Bootstrap in the main HTML file in head, main cover and contact menu. In 2023, during their first year of university, Roman, Erasyl, and Ernar decided to start their own business. Their goal was to use their knowledge and skills in the field of information technology to help people and develop new technologies.
+                            The initial stage of the work was not easy. The three students spent hours working on website and application development, often without payment. But their efforts were not in vain. The first clients came just a few months later, and the company's work began to gain momentum.
+                            For several years, 43 AVENUE developed and expanded. The company began working not only in web development but also in the field of mobile applications, internet marketing, and other related areas. The number of employees grew, and clients remained satisfied.
+                            Today, 43 AVENUE is one of the leading IT companies providing quality services in various fields. It employs more than 300 people and has offices in several countries around the world. However, despite all its achievements, the company does not forget its roots and still pays special attention to startups and young companies, helping them to grow and develop.
+                            The history of the 43 AVENUE company is a vivid example of how a dream and hard work can lead to success and business development. It proves that even a small startup can become a large international company if you believe in yourself and your ideas, as well as know how to work hard and persistently.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
