@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="/">
+    <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/firstlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
@@ -15,13 +15,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -52,9 +45,6 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2NmDC2jjz9pdPYoc7Lp6BS3Drwz" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,16 +52,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/romanzlotanov/IdeaProjects/Front-End-asssignments11&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -103,15 +92,12 @@
       <workItem from="1680336965947" duration="18425000" />
       <workItem from="1680488163492" duration="1568000" />
       <workItem from="1680577857551" duration="4167000" />
-      <workItem from="1680667911365" duration="10559000" />
-      <workItem from="1680715312570" duration="57000" />
-      <workItem from="1680715371710" duration="619000" />
-      <workItem from="1681124272291" duration="29000" />
-      <workItem from="1681552416913" duration="372000" />
-      <workItem from="1681552803685" duration="204000" />
-      <workItem from="1681553282703" duration="202000" />
-      <workItem from="1681553498029" duration="7475000" />
-      <workItem from="1681622909242" duration="14597000" />
+      <workItem from="1680667911365" duration="12461000" />
+      <workItem from="1681186436109" duration="35000" />
+      <workItem from="1681188073350" duration="290000" />
+      <workItem from="1681272790033" duration="1193000" />
+      <workItem from="1681700235103" duration="255000" />
+      <workItem from="1681700492993" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
@@ -163,18 +149,18 @@
       <updated>1680690298010</updated>
     </task>
     <task id="LOCAL-00008" summary="/">
-      <created>1681568165729</created>
+      <created>1680710633619</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1681568165729</updated>
+      <updated>1680710633619</updated>
     </task>
     <task id="LOCAL-00009" summary="/">
-      <created>1681632394831</created>
+      <created>1680747961111</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1681632394831</updated>
+      <updated>1680747961111</updated>
     </task>
     <option name="localTasksCounter" value="10" />
     <servers />
