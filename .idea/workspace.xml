@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="/">
+    <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mainmenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylenew.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wall.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -58,22 +62,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "/Users/romanzlotanov/IdeaProjects/Front-End-asssignments11",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Front-End-asssignments" />
@@ -102,17 +109,13 @@
       <workItem from="1680336965947" duration="18425000" />
       <workItem from="1680488163492" duration="1568000" />
       <workItem from="1680577857551" duration="4167000" />
-      <workItem from="1680667911365" duration="10559000" />
-      <workItem from="1680715312570" duration="57000" />
-      <workItem from="1680715371710" duration="619000" />
-      <workItem from="1681124272291" duration="29000" />
-      <workItem from="1681552416913" duration="372000" />
-      <workItem from="1681552803685" duration="204000" />
-      <workItem from="1681553282703" duration="202000" />
-      <workItem from="1681553498029" duration="7475000" />
-      <workItem from="1681622909242" duration="15248000" />
-      <workItem from="1681716436716" duration="492000" />
-      <workItem from="1681716935244" duration="15836000" />
+      <workItem from="1680667911365" duration="12461000" />
+      <workItem from="1681186436109" duration="35000" />
+      <workItem from="1681188073350" duration="290000" />
+      <workItem from="1681272790033" duration="1193000" />
+      <workItem from="1681700235103" duration="255000" />
+      <workItem from="1681700492993" duration="3779000" />
+      <workItem from="1681787097223" duration="18286000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
@@ -164,27 +167,34 @@
       <updated>1680690298010</updated>
     </task>
     <task id="LOCAL-00008" summary="/">
-      <created>1681568165729</created>
+      <created>1680710633619</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1681568165729</updated>
+      <updated>1680710633619</updated>
     </task>
     <task id="LOCAL-00009" summary="/">
-      <created>1681632394831</created>
+      <created>1680747961111</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1681632394831</updated>
+      <updated>1680747961111</updated>
     </task>
     <task id="LOCAL-00010" summary="/">
-      <created>1681656637666</created>
+      <created>1681715616023</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1681656637666</updated>
+      <updated>1681715616023</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="/">
+      <created>1681715733438</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681715733438</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +223,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="/" />
     <option name="LAST_COMMIT_MESSAGE" value="/" />
   </component>
