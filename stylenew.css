@@ -1,7 +1,9 @@
+
 .head {
-    background-image: url(wall.jpg);
-    background-size: cover;
     height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
     filter: brightness(80%);
 }
 body {
@@ -70,6 +72,9 @@ img {
 .Main-menu:hover{
     color: crimson;
 }
+html {
+    scroll-behavior: smooth;
+}
 .Prod{
     color: #fff;
     text-decoration: none;
@@ -127,7 +132,9 @@ img {
     text-align: center;
 }
 
-
+.menu{
+    padding-left: 7%;
+}
 
 @media only screen and (max-width: 768px) {
     /* Изменяем высоту блока .head */
@@ -158,7 +165,7 @@ img {
 
 .low-title, .low-subtitle{
     text-align: right;
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
@@ -166,6 +173,7 @@ img {
 }
 .knopka{
     align-items: center;
+    padding-top: 5%;
 }
 .btn-black:hover{
     background-color: black;
@@ -184,7 +192,6 @@ img {
     border-radius: 5px;
 }
 .space{
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .menu {
@@ -233,6 +240,7 @@ img {
     margin-bottom: 20px;
     max-width: 100%;
     height: auto;
+    background-color: whitesmoke;
 }
 
 .menu-item:nth-child(even) {
@@ -254,5 +262,27 @@ img {
 
 
 
+.knopka, .low-title {
+    display: inline-block;
+}
 
+.container {
+    background-image: url(wall6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.2); /* 50% черный цвет */
+    background-blend-mode: multiply;
 
+}
+.container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
