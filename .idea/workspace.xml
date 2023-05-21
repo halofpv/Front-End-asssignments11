@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="/">
-      <change afterPath="$PROJECT_DIR$/index(lab).html" afterDir="false" />
+    <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/firstlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainmenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylenew.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylenew.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -112,8 +112,12 @@
       <workItem from="1681272790033" duration="1193000" />
       <workItem from="1681700235103" duration="255000" />
       <workItem from="1681700492993" duration="3779000" />
-      <workItem from="1681787097223" duration="18286000" />
-      <workItem from="1681898244699" duration="9212000" />
+      <workItem from="1681787097223" duration="19126000" />
+      <workItem from="1682391988414" duration="171000" />
+      <workItem from="1682392164029" duration="150000" />
+      <workItem from="1683690109832" duration="6348000" />
+      <workItem from="1683946885705" duration="154000" />
+      <workItem from="1684647565266" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
@@ -193,11 +197,11 @@
       <updated>1681715733438</updated>
     </task>
     <task id="LOCAL-00012" summary="/">
-      <created>1681908340460</created>
+      <created>1681897932402</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1681908340460</updated>
+      <updated>1681897932402</updated>
     </task>
     <option name="localTasksCounter" value="13" />
     <servers />
