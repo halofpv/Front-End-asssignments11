@@ -6,6 +6,7 @@
     <link rel="shortcut icon" type="image/png" href="circle.png">
     <link rel="stylesheet" href="stylenew.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="container">
@@ -35,6 +36,7 @@
             <div class="low-subtitle">
                 based on Japanese cuisine
             </div>
+
         </div>
 
     </div>
@@ -42,13 +44,18 @@
         <a href="firstlist.html" class="btn">Order Now</a>
     </div>
 </div>
-<div class="unknown">
+
+    <input type="button" value="Hide text" onclick="hideText()">
+    <input type="button" value="Show text" onclick="showText()">
+
+<div class="unknown" id="hide">
     <div class="menu-header">
         <h3 class="Menu-logo">Menu</h3>
         <hr class="my-line">
     </div>
 
-    <div class="menu" id="menu">
+
+    <div class="menu" id="menu" >
                 <div class="line">
                     <div class="menu-item">
                         <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_09_06__252.jpg" alt="Калифорниа ролл" class="img-proj">
@@ -395,7 +402,10 @@
                 <span class="price">50 тг.</span>
             </div>
         </div>
-
+    </div>
+    <div class="lowest">
+        <p class="fontLowest" id="demo">Click the button to display the cookies associated with this document.</p>
+        <button onclick="myFunction()">Try it</button>
     </div>
 </div>
 </div>
