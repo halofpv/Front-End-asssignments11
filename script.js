@@ -19,3 +19,10 @@ function menuHover(element) {
 function menuOut(element) {
     element.style.transform = 'scale(1)';
 }
+
+
+
+function flipElement(button) {
+    var flipContainer = button.parentNode.parentNode.parentNode;
+    flipContainer.classList.toggle('flip');
+}
