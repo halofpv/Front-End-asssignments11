@@ -47,7 +47,7 @@ display: flex;
     .navigation-panel {
         margin-top: 20px;
         position: relative;
-        top: 50px; /* Измените значение по своему усмотрению */
+        top: 50px;
     }
     .logo {
         width: 100%;
@@ -368,4 +368,16 @@ html {
 }
 .back-face{
     background-color: whitesmoke;
+}
+.openClose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.openKnopka{
+    margin-top: 50px;
+    padding-top: 10px;
+    width: 100px;
 }

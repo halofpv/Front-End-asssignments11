@@ -2,16 +2,18 @@ function myFunction() {
     document.getElementById("demo").innerHTML =
         "Cookies associated with this document: " + document.cookie;
 }
+var c = 0;
+var button = document.querySelector('.openKnopka');
 function hideText() {
-    document.getElementById('hide').style.display = 'none';
+    c++;
+    if (c % 2 == 0) {
+        document.getElementById('hide').style.display = 'block';
+        button.value = 'Close menu';
+    } else {
+        document.getElementById('hide').style.display = 'none';
+        button.value = 'Open menu';
+    }
 }
-
-function showText() {
-    document.getElementById('hide').style.display = 'block';
-}
-
-
-
 function menuHover(element) {
     element.style.transform = 'scale(1.1)';
 }
