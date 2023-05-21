@@ -9,3 +9,13 @@ function hideText() {
 function showText() {
     document.getElementById('hide').style.display = 'block';
 }
+
+
+
+function menuHover(element) {
+    element.style.transform = 'scale(1.1)';
+}
+
+function menuOut(element) {
+    element.style.transform = 'scale(1)';
+}
