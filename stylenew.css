@@ -135,10 +135,19 @@ display: flex;
     margin-right: 1%;
 }
 img {
-    width: 5%;
+    width: 4%;
     color: crimson;
 }
-
+.openKnopka {
+    border: none;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: black;
+}
 .logo {
     align-items: center;
     width: 100%;
