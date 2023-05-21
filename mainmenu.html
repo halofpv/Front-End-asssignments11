@@ -45,126 +45,142 @@
         <input class="openKnopka" type="button" value="Show menu" onclick="hideText()">
     </div>
 </div>
-
 <div class="unknown" id="hide">
     <div class="menu-header">
-        <h3 class="Menu-logo">Menu</h3>
+        <h3 class="Menu-logo">Суши</h3>
         <hr class="my-line">
     </div>
-    <div class="menu" id="menu" >
-                <div class="line">
-                    <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+    <div class="menu" id="menu">
+        <div class="line">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front-face">
                                     <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_09_06__252.jpg" alt="Калифорниа ролл" class="img-proj">
                                     <h3>Ролл Филадельфия</h3>
-                                    <p>Лосось, сливочный сыр, огурец, авокадо, нори.</p>
-                                    <span class="price">4321 тг.</span>
-                                    <button onclick="flipElement(this)">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Далее</button>
                                 </div>
                                 <div class="back-face">
-                                    <p>Лосось, сливочный сыр, огурец, авокадо, нори.</p>
-                                    <span class="price">4321 тг.</span>
+                                    <div class="back-container">
+                                        <h3>Ролл Филадельфия</h3>
+                                        <span class="price">4321 тг.</span>
+                                        <p>Лосось, сливочный сыр, огурец, авокадо, нори.</p>
+                                    </div>
+                                    <button class="specBtn" onclick="">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Назад</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front-face">
-                                    <!-- Содержимое лицевой стороны -->
                                     <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_08_41__806.jpg" alt="Калифорниа ролл" class="img-proj">
                                     <h3>Ролл Дракон</h3>
-                                    <p>Креветки, авокадо, тунец, огурец, нори.</p>
-                                    <span class="price">5278 тг.</span>
-                                    <button onclick="flipElement(this)">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Далее</button>
                                 </div>
                                 <div class="back-face">
-                                    <!-- Содержимое задней стороны -->
+                                    <div class="back-container">
+                                        <h3>Ролл Дракон</h3>
+                                        <span class="price">5278 тг.</span>
+                                        <p>Креветки, авокадо, тунец, огурец, нори.</p>
+                                    </div>
+                                    <button class="specBtn" onclick="">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Назад</button>
                                 </div>
                             </div>
                         </div>
 
 
                     </div>
-                    <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front-face">
-                                    <!-- Содержимое лицевой стороны -->
                                     <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_10_13__039.jpg" alt="Калифорниа ролл" class="img-proj">
                                     <h3>Ролл Калифорния</h3>
-                                    <p>Крабовое мясо, авокадо, огурец, нори.</p>
-                                    <span class="price">4312 тг.</span>
-                                    <button onclick="flipElement(this)">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Далее</button>
                                 </div>
                                 <div class="back-face">
-                                    <!-- Содержимое задней стороны -->
+                                        <div class="back-container">
+                                            <h3>Ролл Калифорния</h3>
+                                            <span class="price">4312 тг.</span>
+                                            <p>Крабовое мясо, авокадо, огурец, нори.</p>
+                                        </div>
+                                        <button class="specBtn" onclick="">Заказать</button>
+                                        <button class="specBtn" onclick="flipElement(this)">Назад</button>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-                </div>
-                <div class="line">
-                    <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+        </div>
+        <div class="line">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front-face">
-                                    <!-- Содержимое лицевой стороны -->
                                     <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_10_39__654.jpg" alt="Калифорниа ролл" class="img-proj">
                                     <h3>Ролл Цезарь</h3>
-                                    <p>Куриное филе, салат айсберг, сливочный сыр, нори.</p>
-                                    <span class="price">3356 тг.</span>
-                                    <button onclick="flipElement(this)">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Далее</button>
                                 </div>
                                 <div class="back-face">
-                                    <!-- Содержимое задней стороны -->
+                                    <div class="back-container">
+                                        <h3>Ролл Цезарь</h3>
+                                        <p>Куриное филе, салат айсберг, сливочный сыр, нори.</p>
+                                        <span class="price">3356 тг.</span>
+                                    </div>
+                                    <button class="specBtn" onclick="">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Назад</button>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front-face">
-                                    <!-- Содержимое лицевой стороны -->
                                     <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_13_12__06_21_29__674.jpg" alt="Калифорниа ролл" class="img-proj">
                                     <h3>Ролл Ясай</h3>
-                                    <p>Авокадо, огурец, морковь, паприка, нори.</p>
-                                    <span class="price">6721 тг.</span>
-                                    <button onclick="flipElement(this)">Заказать</button>
+
+                                    <button class="specBtn" onclick="flipElement(this)">Далее</button>
                                 </div>
                                 <div class="back-face">
-                                    <!-- Содержимое задней стороны -->
+                                    <div class="back-container">
+                                        <h3>Ролл Ясай</h3>
+                                        <p>Авокадо, огурец, морковь, паприка, нори.</p>
+                                        <span class="price">6721 тг.</span>
+                                    </div>
+                                    <button class="specBtn" onclick="">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Назад</button>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front-face">
-                                    <!-- Содержимое лицевой стороны -->
                                     <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_11_20__183.jpg" alt="Калифорниа ролл" class="img-proj">
                                     <h3>Ролл Шахерезада</h3>
-                                    <p>Тунец, кунжут, соус унаги, огурец, нори.</p>
-                                    <span class="price">6876 тг.</span>
-                                    <button onclick="flipElement(this)">Заказать</button>
+
+                                    <button class="specBtn" onclick="flipElement(this)">Далее</button>
                                 </div>
                                 <div class="back-face">
-                                    <!-- Содержимое задней стороны -->
+                                    <div class="back-container">
+                                        <h3>Ролл Шахерезада</h3>
+                                        <p>Тунец, кунжут, соус унаги, огурец, нори.</p>
+                                        <span class="price">6876 тг.</span>
+                                    </div>
+                                    <button class="specBtn" onclick="">Заказать</button>
+                                    <button class="specBtn" onclick="flipElement(this)">Назад</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+        </div>
         <div class="line">
             <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                 <div class="flip-container">
@@ -173,12 +189,17 @@
                             <!-- Содержимое лицевой стороны -->
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_12_48__228.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Юдзу</h3>
-                            <p>Лосось, сливочный сыр, кунжут, нори.</p>
-                            <span class="price">5567 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Юдзу</h3>
+                                <p>Лосось, сливочный сыр, кунжут, нори.</p>
+                                <span class="price">5567 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -188,15 +209,19 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_13_21__276.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Темпура</h3>
-                            <p>Креветки, огурец, соус унаги, нори.</p>
-                            <span class="price">6579 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Темпура</h3>
+                                <p>Креветки, огурец, соус унаги, нори.</p>
+                                <span class="price">6579 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -209,12 +234,16 @@
                             <!-- Содержимое лицевой стороны -->
                             <img src="https://manga-sushi.kz/storage/local/user_7/img268/2020_15_01__02_44_46__757.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Футо Маки</h3>
-                            <p>Лосось, креветки, огурец, авокадо, нори.</p>
-                            <span class="price">6599 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Футо Маки</h3>
+                                <p>Лосось, креветки, огурец, авокадо, нори.</p>
+                                <span class="price">6599 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -226,35 +255,38 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_16_01__416.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Греческий</h3>
-                            <p>Тунец, огурец, помидоры, красный лук, фета, нори.</p>
-                            <span class="price">4899 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Греческий</h3>
+                                <p>Тунец, огурец, помидоры, красный лук, фета, нори.</p>
+                                <span class="price">4899 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_18_03__048.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Запеченный</h3>
-                            <p>Лосось, сливочный сыр, огурец, тобико, нори.</p>
-                            <span class="price">3678 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Запеченный</h3>
+                                <p>Лосось, сливочный сыр, огурец, тобико, нори.</p>
+                                <span class="price">3678 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -265,19 +297,22 @@
                     <div class="flipper">
                         <div class="front-face">
                             <!-- Содержимое лицевой стороны -->
-
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_18_39__958.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Итальянский</h3>
-                            <p>Куриное филе, помидоры, огурцы, пармезан, нори.</p>
-                            <span class="price">2345 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Итальянский</h3>
+                                <p>Куриное филе, помидоры, огурцы, пармезан, нори.</p>
+                                <span class="price">2345 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="line">
@@ -289,12 +324,16 @@
 
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_21_08__441.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Нежность</h3>
-                            <p>Лосось, сливочный сыр, авокадо, огурец, нори.</p>
-                            <span class="price">4567 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Нежность</h3>
+                                <p>Лосось, сливочный сыр, авокадо, огурец, нори.</p>
+                                <span class="price">4567 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -308,12 +347,16 @@
 
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_21_28__454.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Океанский</h3>
-                            <p>Тунец, креветки, огурец, авокадо, нори.</p>
-                            <span class="price">6876 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Океанский</h3>
+                                <p>Тунец, креветки, огурец, авокадо, нори.</p>
+                                <span class="price">6876 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -327,12 +370,16 @@
 
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_21_47__911.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Пармезан</h3>
-                            <p>Куриное филе, сыр пармезан, огурец, нори.</p>
-                            <span class="price">3099 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Пармезан</h3>
+                                <p>Куриное филе, сыр пармезан, огурец, нори.</p>
+                                <span class="price">3099 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -344,16 +391,18 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_13_12__06_22_05__199.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Русский</h3>
-                            <p>Куриное филе, огурцы, майонез, кетчуп, нори.</p>
-                            <span class="price">2999 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Русский</h3>
+                                <p>Куриное филе, огурцы, майонез, кетчуп, нори.</p>
+                                <span class="price">2999 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -363,16 +412,18 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_28_04__111.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Сладкий</h3>
-                            <p>Фрукты, сырный соус, мед, орехи, нори.</p>
-                            <span class="price">4265 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Сладкий</h3>
+                                <p>Фрукты, сырный соус, мед, орехи, нори.</p>
+                                <span class="price">4265 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -385,12 +436,146 @@
 
                             <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_29_01__129.jpg" alt="Калифорниа ролл" class="img-proj">
                             <h3>Ролл Терияки</h3>
-                            <p>Говядина, терияки соус, огурцы, кунжут, нори.</p>
-                            <span class="price">5769 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Ролл Терияки</h3>
+                                <p>Говядина, терияки соус, огурцы, кунжут, нори.</p>
+                                <span class="price">5769 тг.</span>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-header">
+        <h3 class="Menu-logo">Сеты</h3>
+        <hr class="my-line">
+    </div>
+    <div class="menu">
+        <div class="line">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front-face">
+                            <img src="https://imgs.sayasushi.kz/xl/4e9d8986-e838-4c9e-a057-03bff6030102.webp" alt="Сет 1" class="img-proj">
+                            <h3>Сет 1</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
+                        </div>
+                        <div class="back-face">
+                            <div class="back-container">
+                                <h3>Сет 1</h3>
+                                <span class="price">15 000 тг.</span>
+                                <p>6 штук суши: лосось, тунец, креветка, авокадо, огурец и угорь.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front-face">
+                            <img src="https://imgs.sayasushi.kz/xl/0f09ecab-868b-4418-b320-344615f32526.webp" alt="Сет 2" class="img-proj">
+                            <h3>Сет 2</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
+                        </div>
+                        <div class="back-face">
+                            <div class="back-container">
+                                <h3>Сет 2</h3>
+                                <span class="price">22 000 тг.</span>
+                                <p>8 штук суши: лосось, тунец, желтохвостая рыба, креветка, авокадо, огурец, угорь и краб.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front-face">
+                            <img src="https://imgs.sayasushi.kz/xl/8498569c-5a57-4228-9fe6-3f96a690de03.webp" alt="Сет 3" class="img-proj">
+                            <h3>Сет 3</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
+                        </div>
+                        <div class="back-face">
+                            <div class="back-container">
+                                <h3>Сет 3</h3>
+                                <span class="price">12 500 тг.</span>
+                                <p>10 штук суши: тунец, лосось, желтохвостая рыба, креветка, авокадо, огурец, угорь, краб, осьминог и тамаго.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="line">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front-face">
+                            <img src="https://imgs.sayasushi.kz/xl/dd64cc94-157c-4788-9093-7c4c4ccc0340.webp" alt="Сет 4" class="img-proj">
+                            <h3>Сет 4</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
+                        </div>
+                        <div class="back-face">
+                            <div class="back-container">
+                                <h3>Сет 4</h3>
+                                <span class="price">28 000 тг.</span>
+                                <p>12 штук суши: лосось, тунец, желтохвостая рыба, креветка, угорь, краб, осьминог, тамаго, авокадо, огурец, острый тунец и ролл Филадельфия.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front-face">
+                            <img src="https://imgs.sayasushi.kz/xl/d5723ab8-c989-4087-be0b-b22a73837850.webp" alt="Сет 5" class="img-proj">
+                            <h3>Сет 5</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
+                        </div>
+                        <div class="back-face">
+                            <div class="back-container">
+                                <h3>Сет 5</h3>
+                                <span class="price">20 500 тг.</span>
+                                <p>8 штук суши: лосось, тунец, креветка, угорь, краб, авокадо, огурец и острый лосось.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front-face">
+                            <img src="https://imgs.sayasushi.kz/xl/24fa2538-d7ed-4797-bbf1-e7cbce282ca6.webp" alt="Сет 6" class="img-proj">
+                            <h3>Сет 6</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
+                        </div>
+                        <div class="back-face">
+                            <div class="back-container">
+                                <h3>Сет 6</h3>
+                                <span class="price">17 500 тг.</span>
+                                <p>6 штук суши: тунец, креветка, авокадо, огурец, угорь и ролл Калифорния.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
@@ -402,592 +587,71 @@
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_09_06__252.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Филадельфия</h3>
-                            <p>Лосось, сливочный сыр, огурец, авокадо, нори.</p>
-                            <span class="price">4321 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <img src="https://imgs.sayasushi.kz/xl/e6bde0e0-c775-4da4-85b1-ece905543bb9.webp" alt="Сет 7" class="img-proj">
+                            <h3>Сет 7</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Сет 7</h3>
+                                <span class="price">25 000 тг.</span>
+                                <p>10 штук суши: лосось, тунец, желтохвостая рыба, креветка, авокадо, огурец, угорь, краб, осьминог и ролл Филадельфия.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_08_41__806.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Дракон</h3>
-                            <p>Креветки, авокадо, тунец, огурец, нори.</p>
-                            <span class="price">5278 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <img src="https://imgs.sayasushi.kz/xl/56060108-6c42-4325-babc-e0ea4152f220.webp" alt="Сет 8" class="img-proj">
+                            <h3>Сет 8</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Сет 8</h3>
+                                <span class="price">30 000 тг.</span>
+                                <p>12 штук суши: лосось, тунец, желтохвостая рыба, креветка, угорь, краб, осьминог, тамаго, авокадо, огурец, острый тунец и ролл Филадельфия.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                 <div class="flip-container">
                     <div class="flipper">
                         <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_10_13__039.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Калифорния</h3>
-                            <p>Крабовое мясо, авокадо, огурец, нори.</p>
-                            <span class="price">4312 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
+                            <img src="https://imgs.sayasushi.kz/xl/f1a5e579-0624-42e4-b817-115774ab82fa.webp" alt="Сет 9" class="img-proj">
+                            <h3>Сет 9</h3>
+                            <button class="specBtn" onclick="flipElement(this)">Далее</button>
                         </div>
                         <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="line">
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_10_39__654.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Цезарь</h3>
-                            <p>Куриное филе, салат айсберг, сливочный сыр, нори.</p>
-                            <span class="price">3356 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_13_12__06_21_29__674.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Ясай</h3>
-                            <p>Авокадо, огурец, морковь, паприка, нори.</p>
-                            <span class="price">6721 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_11_20__183.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Шахерезада</h3>
-                            <p>Тунец, кунжут, соус унаги, огурец, нори.</p>
-                            <span class="price">6876 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
+                            <div class="back-container">
+                                <h3>Сет 9</h3>
+                                <span class="price">14 500 тг.</span>
+                                <p>8 штук суши: лосось, тунец, креветка, угорь, краб, авокадо, огурец и острый лосось.</p>
+                            </div>
+                            <button class="specBtn" onclick="">Заказать</button>
+                            <button class="specBtn" onclick="flipElement(this)">Назад</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="menu-header">
+        <h3 class="Menu-logo">Еще что то</h3>
+        <hr class="my-line">
+    </div>
+    <div class="menu">
         <div class="line">
             <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_12_48__228.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Юдзу</h3>
-                            <p>Лосось, сливочный сыр, кунжут, нори.</p>
-                            <span class="price">5567 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_13_21__276.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Темпура</h3>
-                            <p>Креветки, огурец, соус унаги, нори.</p>
-                            <span class="price">6579 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_7/img268/2020_15_01__02_44_46__757.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Футо Маки</h3>
-                            <p>Лосось, креветки, огурец, авокадо, нори.</p>
-                            <span class="price">6599 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="line">
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_16_01__416.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Греческий</h3>
-                            <p>Тунец, огурец, помидоры, красный лук, фета, нори.</p>
-                            <span class="price">4899 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_18_03__048.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Запеченный</h3>
-                            <p>Лосось, сливочный сыр, огурец, тобико, нори.</p>
-                            <span class="price">3678 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_18_39__958.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Итальянский</h3>
-                            <p>Куриное филе, помидоры, огурцы, пармезан, нори.</p>
-                            <span class="price">2345 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="line">
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_21_08__441.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Нежность</h3>
-                            <p>Лосось, сливочный сыр, авокадо, огурец, нори.</p>
-                            <span class="price">4567 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_21_28__454.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Океанский</h3>
-                            <p>Тунец, креветки, огурец, авокадо, нори.</p>
-                            <span class="price">6876 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_21_47__911.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Пармезан</h3>
-                            <p>Куриное филе, сыр пармезан, огурец, нори.</p>
-                            <span class="price">3099 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="line">
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_13_12__06_22_05__199.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Русский</h3>
-                            <p>Куриное филе, огурцы, майонез, кетчуп, нори.</p>
-                            <span class="price">2999 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_28_04__111.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Сладкий</h3>
-                            <p>Фрукты, сырный соус, мед, орехи, нори.</p>
-                            <span class="price">4265 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_29_01__129.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Терияки</h3>
-                            <p>Говядина, терияки соус, огурцы, кунжут, нори.</p>
-                            <span class="price">5769 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="line">
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_13_12__06_22_19__971.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Угорь</h3>
-                            <p>Угорь, огурцы, авокадо, тобико, нори.</p>
-                            <span class="price">6478 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_30_11__004.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Медя</h3>
-                            <p>Лосось, сливочный сыр, огурец, нори.</p>
-                            <span class="price">5432 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front-face">
-                            <!-- Содержимое лицевой стороны -->
-
-                            <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_12_04__626.jpg" alt="Калифорниа ролл" class="img-proj">
-                            <h3>Ролл Чикен</h3>
-                            <p>Курица, огурец, салат айсберг, нори.</p>
-                            <span class="price">3245 тг.</span>
-                            <button onclick="flipElement(this)">Заказать</button>
-                        </div>
-                        <div class="back-face">
-                            <!-- Содержимое задней стороны -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="line">
-            <div class="line">
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_12_28__181.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Эби</h3>
-                                <p>Креветки, сыр Филадельфия, огурец, нори.</p>
-                                <span class="price">3123 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_19_42__147.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Кунжутный</h3>
-                                <p>Лосось, сливочный сыр, огурец, кунжут, нори.</p>
-                                <span class="price">6234 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_20_07__676.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Мексиканский</h3>
-                                <p>Говядина, авокадо, красный лук, чеснок, нори.</p>
-                                <span class="price">4321 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="line">
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_13_12__06_22_19__971.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Угорь</h3>
-                                <p>Угорь, огурцы, авокадо, тобико, нори.</p>
-                                <span class="price">6478 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_30_11__004.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Медя</h3>
-                                <p>Лосось, сливочный сыр, огурец, нори.</p>
-                                <span class="price">5432 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_12_04__626.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Чикен</h3>
-                                <p>Курица, огурец, салат айсберг, нори.</p>
-                                <span class="price">3245 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="line">
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_19_42__147.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Кунжутный</h3>
-                                <p>Лосось, сливочный сыр, огурец, кунжут, нори.</p>
-                                <span class="price">6234 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_20_07__676.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Мексиканский</h3>
-                                <p>Говядина, авокадо, красный лук, чеснок, нори.</p>
-                                <span class="price">4321 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
-                                <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_12_28__181.jpg" alt="Калифорниа ролл" class="img-proj">
-                                <h3>Ролл Эби</h3>
-                                <p>Креветки, сыр Филадельфия, огурец, нори.</p>
-                                <span class="price">3123 тг.</span>
-                                <button onclick="flipElement(this)">Заказать</button>
-                            </div>
-                            <div class="back-face">
-                                <!-- Содержимое задней стороны -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="line">
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front-face">
@@ -1005,12 +669,10 @@
                     </div>
 
                 </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
                                 <img src="https://manga-sushi.kz/storage/local/user_14/img268/2022_30_08__10_51_04__441.jpg" alt="Калифорниа ролл" class="img-proj">
                                 <h3>Соус соевый</h3>
                                 <span class="price">300 тг.</span>
@@ -1021,9 +683,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front-face">
@@ -1039,26 +700,21 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
+            <div class="menu-item" onmouseover="menuHover(this)" onmouseout="menuOut(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front-face">
-                                <!-- Содержимое лицевой стороны -->
-
                                 <img src="https://manga-sushi.kz/storage/local/user_7/img268/2019_01_05__12_51_53__701.jpg" alt="Калифорниа ролл" class="img-proj">
                                 <h3>Палочки</h3>
                                 <span class="price">50 тг.</span>
                                 <button onclick="flipElement(this)">Заказать</button>
                             </div>
                             <div class="back-face">
-                                <!-- Содержимое задней стороны -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 </div>
@@ -1066,6 +722,7 @@
         <p class="fontLowest" id="demo">Click the button to display the cookies associated with this document.</p>
         <button onclick="myFunction()">Try it</button>
     </div>
+</div>
 </div>
 </body>
 </html>

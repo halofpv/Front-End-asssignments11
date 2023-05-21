@@ -14,6 +14,15 @@ function hideText() {
         button.value = 'Open menu';
     }
 }
+var sussi = 0;
+function hideSussi(){
+    sussi++;
+    if (sussi % 2 == 0) {
+        document.getElementById('hideSussi').style.display = 'block';
+    } else {
+        document.getElementById('hideSussi').style.display = 'none';
+    }
+}
 function menuHover(element) {
     element.style.transform = 'scale(1.1)';
 }

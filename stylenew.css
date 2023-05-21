@@ -238,7 +238,10 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
-
+.tolko-Sussi{
+    display: flex;
+    flex-wrap: wrap;
+}
 .menu-item {
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -308,11 +311,20 @@ html {
     position: absolute;
     backface-visibility: hidden;
 }
-
+.front-face{
+    text-transform: uppercase;
+}
 .back-face {
     transform: rotateY(180deg);
 }
-
+.back-container{
+    margin-top: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 50px;
+    font-style: normal;
+    text-transform: uppercase;
+}
 .flip {
     transform: rotateY(180deg);
 }
@@ -326,7 +338,13 @@ html {
     justify-content: center;
 }
 
-
+.line21{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width: 768px) {
 }
 .img-proj{
@@ -380,4 +398,12 @@ html {
     margin-top: 50px;
     padding-top: 10px;
     width: 100px;
+}
+.specBtn{
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 150%;
+    text-transform: uppercase;
 }
