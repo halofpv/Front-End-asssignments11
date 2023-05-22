@@ -142,3 +142,18 @@ function myMove() {
         }
     }
 }
+
+var audio = document.getElementById("myAudio");
+var playButton = document.getElementById("playButton");
+var isPlaying = false;
+
+function togglePlayStop() {
+    if (isPlaying) {
+        audio.pause();
+        playButton.innerHTML = "Play";
+    } else {
+        audio.play();
+        playButton.innerHTML = "Stop";
+    }
+    isPlaying = !isPlaying;
+}
