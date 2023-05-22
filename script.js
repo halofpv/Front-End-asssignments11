@@ -90,3 +90,55 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+var i = 0;
+function move() {
+    if (i == 0) {
+        i = 1;
+        var elem = document.getElementById("myBar");
+        var width = 1;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width >= 100) {
+                clearInterval(id);
+                i = 0;
+            } else {
+                width++;
+                elem.style.width = width + "%";
+            }
+        }
+    }
+}
+window.addEventListener('scroll', function() {
+    var progressBar = document.getElementById('myBar');
+    var progressContainer = document.getElementById('myProgress');
+    var rowElement = document.querySelector('.row');
+    var rowBottom = rowElement.offsetTop + rowElement.offsetHeight;
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var windowHeight = window.innerHeight;
+    var scrollPosition = scrollTop + windowHeight;
+
+    if (scrollPosition >= rowBottom) {
+        progressBar.style.width = '100%';
+    } else {
+        var progressWidth = ((scrollPosition - rowElement.offsetTop) / (rowBottom - rowElement.offsetTop)) * 100;
+        progressBar.style.width = progressWidth + '%';
+    }
+});
+
+var id = null;
+function myMove() {
+    var elem = document.getElementById("myAnimation");
+    var pos = 0;
+    clearInterval(id);
+    id = setInterval(frame, 10);
+    function frame() {
+        if (pos == 350) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + 'px';
+            elem.style.left = pos + 'px';
+        }
+    }
+}
