@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Avenue 43: Ordering page</title>
-    <script src="script.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,7 +24,7 @@
             display: block;
             margin-bottom: 5px;
             font-weight: bold;
-            color: orange;
+            color: white;
         }
 
         input[type="text"],
@@ -36,7 +35,7 @@
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid orange;
+            border: 1px solid red;
             border-radius: 5px;
             box-sizing: border-box;
             font-size: 16px;
@@ -60,7 +59,7 @@
         }
 
         input[type="submit"] {
-            background-color: orange;
+            background-color: red;
             color: black;
             border: none;
             padding: 10px 20px;
@@ -76,7 +75,7 @@
         }
 
         input:required:valid {
-            border: 1px solid orange;
+            border: 1px solid red;
         }
 
         form {
@@ -96,7 +95,7 @@
             width: 3rem;
             padding: 0.25rem;
             border-radius: 0.25rem;
-            border: 1px solid orange;
+            border: 1px solid red;
             font-size: 1rem;
             background-color: black;
             color: white;
@@ -104,7 +103,7 @@
 
         input[type="submit"] {
             margin-top: 1rem;
-            background-color: orange;
+            background-color: red;
             color: black;
             border: none;
             padding: 0.5rem 1rem;
@@ -114,15 +113,128 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #FCAE1E;
+            background-color: #ff0000;
             color: black;
         }
 
+        #myDIV {
+            width: 100%;
+            padding: 50px 0;
+            text-align: center;
+            background-color: gray;
+            margin-top: 20px;
+        }
+        * {box-sizing: border-box;}
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #000000;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: crimson;
+        }
+        .topnav a.active {
+            background-color: #696969;
+            color: white;
+        }
+
+        .topnav .login-container {
+            float: right;
+        }
+
+
+
+        @media screen and (max-width: 600px) {
+            .topnav .login-container {
+                float: none;
+            }
+            .topnav a, .topnav input[type=text], .topnav .login-container button {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+            .topnav input[type=text] {
+                border: 1px solid #ccc;
+            }
+        }
+        img {
+            width: 4%;
+            color: crimson;
+        }
+        .logo {
+            align-items: center;
+            width: 100%;
+            margin: 0;
+        }
+
+        .logotext {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            margin-right: 13%;
+
+        }
+        .title{
+            color: red;
+        }
+        .title2{
+            color: white;
+        }
+        .head {
+            height: 100vh;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            filter: brightness(80%);
+        }
     </style>
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
-
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="secondlist.html">About</a>
+    <a href="#contact" onclick="smoothScroll(event)">Contact</a>
+    <div class="logo">
+        <div class="logotext">
+            <img src="circle.png" alt="">
+            <span class="title">43</span>
+            <span class="title2">AVENUE</span>
+        </div>
+    </div>
+</div>
 <form action="submit_booking.php" method="POST">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br><br>
@@ -162,18 +274,44 @@
             <input type="number" id="yellowtail_sashimi" name="yellowtail_sashimi_quantity" min="0" max="100" value="0">
         </div>
         <br><br>
-
         <label for="payment">Payment Method:</label>
         <select id="payment" name="payment">
             <option value="credit">Credit Card</option>
             <option value="cash">Cash on Delivery</option>
         </select>
+
+
         <label for="delivery-time">Delivery Time:</label>
-        <input type="datetime-local" id="delivery-time" name="delivery-time" required style="background-color: black; color: orange; border: 1px solid orange; padding: 10px;"><br><br>
+        <input type="datetime-local" id="delivery-time" name="delivery-time" required style="background-color: black; color: white; border: 1px solid red; padding: 10px;"><br><br>
 
 
         <input type="submit" value="Order">
     </form>
+
+    <button onclick="myFunction()">Click Me !</button>
+
+    <div id="myDIV">
+        <p>Hello! You've found the secret button</p>
+        <p>- - - We'll give you extra 20% discount - - -</p>
+        <p>Just write in "comment" section: #SECRETBUTTON</p>
+        <p>Have a nice day!</p>
+        <p>________00000000000___________000000000000_________ </p>
+        <p>______00000000_____00000___000000_____0000000______</p>
+        <p>____0000000_____________000______________00000_____</p>
+        <p>___0000000_______________0_________________0000____</p>
+        <p>__000000_________________________________0000000___</p>
+        <p>___0000000______________________________0000000____</p>
+        <p>_____000000____________________________000000______</p>
+        <p>_______000000________________________000000________</p>
+        <p>__________00000_____________________0000___________</p>
+        <p>_____________0000_________________0000_____________</p>
+        <p>_______________0000_____________000________________</p>
+        <p>_________________000_________000___________________</p>
+        <p>_________________ __000_____00_____________________</p>
+        <p>______________________00__00_______________________</p>
+        <p>________________________00_________________________</p>
+
+    </div>
 
 </form>
 </body>

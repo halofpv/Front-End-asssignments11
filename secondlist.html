@@ -139,10 +139,46 @@
             background-color: green;
             transition: width 0.5s ease;
         }
+        .header {
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            background-color: #f1f1f1;
+        }
+
+        .header h2 {
+            text-align: center;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 8px;
+            background: #ccc;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #04AA6D;
+            width: 0%;
+        }
+
+        .content {
+            padding: 100px 0;
+            margin: 50px auto 0 auto;
+            width: 80%;
+        }
     </style>
 </head>
 <body class="all">
 <div class="container">
+    <div class="logo">
+        <div class="logotext">
+            <img src="circle.png" alt="">
+            <span class="title">43</span>
+            <span class="title2">AVENUE</span>
+        </div>
+    </div>
     <div class="row">
         <div class="col-12">
             <div class="head">
@@ -162,7 +198,13 @@
                 <div class="heed">
                     <h2>43 AVENUE</h2>
                     <audio id="myAudio" src="ost.mp3" controls></audio>
-                    <div class="textp">
+                    <div class="header">
+                        <h2>Scroll Indicator</h2>
+                        <div class="progress-container">
+                            <div class="progress-bar" id="myBar"></div>
+                        </div>
+                    </div>
+                    <div class="content">
                         <p>
                             Company 43 AVENUE was founded in 2023 by three ambitious and visionary students of Astana IT University - Roman, Erasyl, and Ernar. Their shared passion for technology and their desire to make a difference in the world led them to embark on a remarkable entrepreneurial journey.
 
@@ -208,7 +250,9 @@
                             Looking ahead, 43 AVENUE remains committed to driving innovation and making a difference in the world. They continue to invest in research and development, exploring emerging technologies such as quantum computing, Internet of Things, and blockchain to shape the future of digital transformation.
 
                             In conclusion, the growth and success of 43 AVENUE are a testament to their unwavering commitment to excellence, innovation, and client satisfaction. With their diverse expertise, global reach, and a passion for pushing boundaries, they are poised to remain at the forefront of the ever-evolving technology landscape for years to come.
-                        </p>
+                        </p></div>
+                    <div class="textp">
+
                     </div>
                 </div>
             </div>
