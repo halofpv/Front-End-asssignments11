@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="/">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_22_38_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_22_38__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/firstlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainmenu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secondlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondlist.html" afterDir="false" />
@@ -122,7 +125,7 @@
       <workItem from="1684729349611" duration="1551000" />
       <workItem from="1684757878937" duration="865000" />
       <workItem from="1684781432154" duration="29000" />
-      <workItem from="1684922203664" duration="5394000" />
+      <workItem from="1684922203664" duration="5785000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
@@ -278,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684946361281</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="/">
+      <created>1684946884133</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684946884133</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
