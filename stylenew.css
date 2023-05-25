@@ -68,7 +68,14 @@ body {
 }
 
 
-
+.specBtn {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
 @media screen and (max-width: 600px) {
     .topnav .login-container {
         float: none;
@@ -403,6 +410,7 @@ html {
     display: block;
     align-items: center;
     margin: 0 auto;
+    margin-top: 5px;
 }
 
 

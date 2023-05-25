@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="/">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_22_38_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_22_38__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ost1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ost2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tokyo-rain.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/firstlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainmenu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secondlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylenew.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylenew.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +127,7 @@
       <workItem from="1684757878937" duration="865000" />
       <workItem from="1684781432154" duration="29000" />
       <workItem from="1684922203664" duration="5785000" />
+      <workItem from="1684980857394" duration="4212000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
