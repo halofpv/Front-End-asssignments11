@@ -737,3 +737,47 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .closebtn:hover {
     color: lightgrey;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kursorChild {
+    --k-color: 255,255,255;
+    left: 548px;
+    top: 536px;
+}
+div[class*="kursor"].kursor--1 {
+    left: 0px;
+    top: 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgba(var(--k-color), 1);
+    transition: all 0.2s ease, top 0.18s ease-out, left 0.18s ease-out;
+}
+div[class*="kursor"] {
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
