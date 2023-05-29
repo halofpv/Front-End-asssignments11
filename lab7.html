@@ -9,12 +9,12 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"> </script>
   <!-- Our Script -->
   <script type="text/javascript">
-    $(document).ready(function() {
-      $('button').click(function () {
-        var buttonName = $(this).text();
-        alert(buttonName);
-      });
-    });
+    //$(document).ready(function() {
+      //$('button').click(function () {
+        //var buttonName = $(this).text();
+        //alert(buttonName);
+      //});
+    //});
     $(document).ready(function() {
       $('#quotes').click(function() {
         $('q').addClass('highlighted');
@@ -39,6 +39,13 @@
         });
       });
     });
+    $(document).ready(function() {
+      $('button').click(function() {
+        var buttonName = $(this).text();
+        $('.log').append(buttonName + ' ');
+      });
+    });
+
   </script>
   <style>
     .highlighted {
