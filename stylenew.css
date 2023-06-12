@@ -3,33 +3,54 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-
+    padding: 0;
+    box-shadow: inset -100px 0 50px -50px rgba(0,0,0,0.5),
+    inset 100px 0 50px -50px rgba(0,0,0,0.5);
 }
-
 .topnav {
     overflow: hidden;
     background-color: #000000;
 }
-.knopka {
-    /* Добавьте следующие свойства */
-    transition: transform 0.3s ease;
-}
 
-.knopka:hover {
-    /* Измените размер кнопки при наведении курсора */
-    transform: scale(1.1);
+.btn{
+    transition: transform 0.3s ease;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #f00;
+    border-radius: 5px;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+    padding: 5% 5px;
 }
 .specBtn {
-    /* Добавьте следующие свойства */
     transition: transform 0.3s ease;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #f00;
+    border-radius: 5px;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-decoration: whitesmoke;
+    color: whitesmoke;
 }
 
 .specBtn:hover {
-    /* Измените размер кнопки при наведении курсора */
     transform: scale(1.3);
 }
+.knopka {
+    transition: transform 0.3s ease;
+    align-items: center;
+}
+.knopka:hover {
+    transform: scale(1.1);
+}
 .menu-button {
-    /* Добавьте стили для создания внешнего вида кнопок */
     margin-top: 5%;
     padding: 10px 20px;
     font-size: 40px;
@@ -39,9 +60,7 @@ body {
     background-color: transparent; /* Прозрачный фон */
     color: whitesmoke;
 }
-
 .menu-button:hover {
-    /* Измените размер кнопки при наведении курсора */
     transform: scale(1.1);
 }
 .topnav a {
@@ -53,7 +72,6 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-
 .topnav a:hover {
     background-color: #ddd;
     color: crimson;
@@ -63,23 +81,7 @@ body {
     color: white;
 }
 
-.topnav .login-container {
-    float: right;
-}
-
-
-.specBtn {
-    background: none;
-    border: none;
-    color: blue;
-    text-decoration: underline;
-    cursor: pointer;
-    margin-top: 5px;
-}
 @media screen and (max-width: 600px) {
-    .topnav .login-container {
-        float: none;
-    }
     .topnav a, .topnav input[type=text], .topnav .login-container button {
         float: none;
         display: block;
@@ -92,25 +94,11 @@ body {
         border: 1px solid #ccc;
     }
 }
-
-
-
-
-
-
-
-
-
-
 .unknown{
     margin-top: 12%;
     align-items: center;
     text-align: center;
 }
-.lowest{
-    margin-top: 20%;
-}
-
 .head {
     height: 100vh;
     width: 100%;
@@ -123,19 +111,6 @@ body {
     justify-content: center;
     text-align: center;
 }
-.Menu-logo{
-    color: aliceblue;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 200%;
-
-}
-body {
-    margin: 0;
-    padding: 0;
-    box-shadow: inset -100px 0 50px -50px rgba(0,0,0,0.5),
-                inset 100px 0 50px -50px rgba(0,0,0,0.5);
-}
 .my-line {
     border: black;
     border-radius: 30%;
@@ -145,12 +120,8 @@ body {
     margin-left: 5%;
     margin-bottom: 5%;
 }
-.top-line{
-background-color: black;
-display: flex;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
+
+
 @media screen and (max-width: 1220px) {
     .head {
         display: flex;
@@ -169,26 +140,11 @@ display: flex;
         display: none;
     }
 }
-.navigation-panel{
-    display: flex;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 1%;
-}
 img {
     width: 4%;
     color: crimson;
 }
-.openKnopka {
-    border: none;
-    color: whitesmoke;
-    font-size: 15px;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: black;
-}
+
 .logo {
     align-items: center;
     width: 100%;
@@ -203,88 +159,10 @@ img {
     margin-right: 13%;
 
 }
-
-.header-line {
-    padding-top: 2px;
-    padding-left: 130px;
-    margin-left: -80px;
-    display: flex;
-    align-items: center;
-    background: black;
-    background-size: cover;
-    width: 100%;
-}
-
-.navbar-nav {
-    color: white;
-    margin-right: 90px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navbar-toggler-icon {
-    background-image: url('navbar-toggler-icon.svg');
-    background-size: cover;
-}
-.Main-menu{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 20px;
-    margin-right: 20px;
-    border-right: 1px solid white;
-    padding-right: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-.Main-menu:hover{
-    color: crimson;
-}
 html {
     scroll-behavior: smooth;
 }
-.Prod{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    margin-right: 20px;
-    border-right: 1px solid white;
-    padding-right: 20px;
-}
-.Prod:hover{
-    color: crimson;
-}
-.Tg{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 20px;
-    margin-right: 40px;
-    font-family: 'Montserrat', sans-serif;
-    display: inline;
-    white-space: nowrap;
-    border-right: 1px solid white;
-    padding-right: 20px;
-}
-.Tg:hover{
-    color: crimson;
-}
-.num{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin-left: -20px;
-}
-.num:hover{
-    color: crimson;
-}
+
 .title, .title2 {
     font-size: 50px;
     display: inline-block;
@@ -299,30 +177,6 @@ html {
 .main{
     text-align: center;
 }
-
-@media only screen and (max-width: 768px) {
-    .head {
-        height: auto;
-        min-height: 100vh;
-    }
-    img {
-        width: 100%;
-        max-width: 80px;
-    }
-    .navigation-panel {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: 0;
-    }
-    .Main-menu, .Prod {
-        font-size: 16px;
-        margin-right: 10px;
-        padding-right: 10px;
-    }
-}
-
-
-
 .low-title, .low-subtitle{
     text-align: center;
     color: #ffffff;
@@ -333,39 +187,7 @@ html {
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
 }
-.knopka{
-    align-items: center;
 
-}
-.btn-black:hover{
-    background-color: black;
-    color: white;
-}
-.btn-black {
-    background-color: #a42800;
-    color: white;
-}
-.btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #f00;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 200%;
-    text-transform: uppercase;
-}
-.space{
-}
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-}
-.tolko-Sussi{
-    display: flex;
-    flex-wrap: wrap;
-}
 .menu-item {
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -444,6 +266,7 @@ html {
 }
 .back-face {
     transform: rotateY(180deg);
+    background-color: whitesmoke;
 }
 .back-container{
     margin-top: 50%;
@@ -465,14 +288,6 @@ html {
     align-items: center;
     justify-content: center;
 }
-
-.line21{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
 @media (max-width: 768px) {
 }
 .img-proj{
@@ -482,8 +297,6 @@ html {
     justify-content: center;
     text-align: center;
 }
-
-
 
 .knopka, .low-title {
     display: inline-block;
@@ -511,12 +324,10 @@ html {
 }
 .lowest{
     background-color: black;
+    margin-top: 20%;
 }
 .fontLowest{
     color: whitesmoke;
-}
-.back-face{
-    background-color: whitesmoke;
 }
 .openClose{
     display: flex;
@@ -530,14 +341,6 @@ html {
     margin-top: 50px;
     padding-top: 10px;
     width: 100px;
-}
-.specBtn{
-    background-color: #f00;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 150%;
-    text-transform: uppercase;
 }
 
 
@@ -683,7 +486,7 @@ img {vertical-align: middle;}
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 0px;
+    margin: 0 0;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -745,47 +548,3 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .closebtn:hover {
     color: lightgrey;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
