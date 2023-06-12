@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc3187cc-e8c1-4953-931e-b257d088f6d7" name="Changes" comment="/ мтмс">
-      <change afterPath="$PROJECT_DIR$/lab8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_22_38_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2023_22_38__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainmenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snare.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylenew.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylenew.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/susi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sussi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom-1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom-2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom-3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom-4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wall2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wall3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wall5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/аппча.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +151,7 @@
       <workItem from="1685376554212" duration="3790000" />
       <workItem from="1685444116746" duration="7359000" />
       <workItem from="1685525882437" duration="765000" />
+      <workItem from="1686569229230" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <created>1680266761301</created>
